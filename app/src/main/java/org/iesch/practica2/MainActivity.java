@@ -38,8 +38,8 @@ public class MainActivity extends AppCompatActivity {
             pregunta.setText("¿Cuál es el personaje más inútil?");
             rb1.setText("Sakura");
             rb2.setText("Ino");
-            imgView1.setImageResource(R.drawable.Sakura);
-            imgView2.setImageResource(R.drawable.Ino_Yamakana_HD);
+            imgView1.setImageResource(R.drawable.sakura);
+            imgView2.setImageResource(R.drawable.ino);
             btn.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
