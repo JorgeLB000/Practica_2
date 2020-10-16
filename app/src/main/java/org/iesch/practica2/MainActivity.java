@@ -55,11 +55,11 @@ public class MainActivity extends AppCompatActivity {
             });
         }else if(point[0] == 2){
             punto.setText(cadena);
-            pregunta.setText("");
-            rb1.setText("");
-            rb2.setText("");
-            imgView1.setImageResource(R.drawable.);
-            imgView2.setImageResource(R.drawable.);
+            pregunta.setText("¿Quién borra más el historial de navegación");
+            rb1.setText("Jiraiya");
+            rb2.setText("Kakashi");
+            imgView1.setImageResource(R.drawable.jiraiya);
+            imgView2.setImageResource(R.drawable.kakashi);
             btn.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
@@ -75,11 +75,11 @@ public class MainActivity extends AppCompatActivity {
             }); 
         } else if (point[0] == 3){
             punto.setText(cadena);
-            pregunta.setText("");
-            rb1.setText("");
-            rb2.setText("");
-            imgView1.setImageResource(R.drawable.);
-            imgView2.setImageResource(R.drawable.); 
+            pregunta.setText("¿Qué significa Itachi");
+            rb1.setText("El más fuerte guerrero");
+            rb2.setText("Mala suerte y fatal destino");
+            imgView1.setImageResource(R.drawable.itachi1);
+            imgView2.setImageResource(R.drawable.itachi2);
             btn.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
